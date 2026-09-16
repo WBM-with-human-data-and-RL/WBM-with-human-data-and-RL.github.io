@@ -9,8 +9,8 @@
 
 * { box-sizing: border-box; }
 body { margin: 0; }
-main { width: min(900px, calc(100% - 48px)); margin: 0 auto; padding: 80px 0; }
-header { margin-bottom: 52px; text-align: center; }
+main { width: min(1100px, calc(100% - 48px)); margin: 0 auto; padding: 80px 0; }
+header { max-width: 900px; margin: 0 auto 42px; text-align: center; }
 h1 { margin: 0; font-size: clamp(28px, 4vw, 40px); line-height: 1.3; font-weight: 650; letter-spacing: -0.8px; text-wrap: balance; }
 section { max-width: 780px; margin: 0 auto; }
 h2 { margin: 0 0 20px; text-align: center; font-size: 26px; font-weight: 600; }
@@ -21,3 +21,8 @@ p { margin: 0; font-size: 17px; }
   header { margin-bottom: 36px; }
   p { font-size: 16px; }
 }
+
+.teaser { margin: 0 0 48px; }
+.teaser a { display: block; }
+.teaser img { display: block; width: 100%; height: auto; }
+.teaser a:focus-visible { outline: 2px solid #245da4; outline-offset: 6px; }
