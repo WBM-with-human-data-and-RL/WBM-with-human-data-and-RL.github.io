@@ -1,12 +1,10 @@
-# Academic project page
+# Research project website
 
-A minimal, responsive academic project template built with plain HTML and CSS. No dependencies or build step.
+A minimal anonymous academic project page containing only the paper title and abstract. Built with local HTML and CSS, without scripts, external fonts, analytics, or dependencies.
 
-## Customize
+## Edit
 
-Edit `index.html` to replace the placeholder title, authors, affiliation, abstract, method, results, and citation. Replace the figure placeholder with an image or video. Resource buttons are disabled until links are available; replace them with anchors as described in the HTML comment.
-
-Edit `style.css` to adjust the layout and colors.
+Update the title and abstract in `index.html`. Adjust the layout in `style.css`.
 
 ## Preview
 
@@ -14,4 +12,4 @@ Run `python3 -m http.server 8000`, then open http://localhost:8000.
 
 ## Deploy
 
-In the repository's GitHub Pages settings, select **Deploy from a branch**, **main**, and **/ (root)**.
+In GitHub Pages settings, select **Deploy from a branch**, **main**, and **/ (root)**.

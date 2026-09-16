@@ -4,52 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Academic research project page. Project details coming soon.">
-  <title>Project Title</title>
+  <title>Data-Efficient Humanoid Loco-Manipulation Learning via Heterogeneous Human Data Pretraining and Iterative Offline RL</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <header class="project-header">
-      <!-- Replace these placeholders with the project title and author details. -->
-      <p class="eyebrow">Research Project</p>
-      <h1>Project Title</h1>
-      <p class="subtitle">A short description of the project.</p>
-      <p class="authors">Author One · Author Two · Author Three</p>
-      <p class="affiliation">Institution / University</p>
-      <!-- Replace each disabled button with an <a class="resource" href="..."> when its URL is available. -->
-      <div class="resources" aria-label="Project resources">
-        <button class="resource" disabled>Paper · Coming soon</button>
-        <button class="resource" disabled>Code · Coming soon</button>
-        <button class="resource" disabled>Data · Coming soon</button>
-      </div>
+    <header>
+      <h1>Data-Efficient Humanoid Loco-Manipulation Learning via Heterogeneous Human Data Pretraining and Iterative Offline RL</h1>
     </header>
-
-    <figure class="teaser">
-      <div class="figure-placeholder">Project figure or video</div>
-      <figcaption>A brief caption describing the project overview.</figcaption>
-    </figure>
-
     <section aria-labelledby="abstract-title">
       <h2 id="abstract-title">Abstract</h2>
-      <p class="placeholder">Add the project abstract here.</p>
-    </section>
-
-    <section aria-labelledby="method-title">
-      <h2 id="method-title">Method</h2>
-      <p class="placeholder">Add an overview of the approach here.</p>
-    </section>
-
-    <section aria-labelledby="results-title">
-      <h2 id="results-title">Results</h2>
-      <p class="placeholder">Add experimental results, figures, or demonstrations here.</p>
-    </section>
-
-    <section aria-labelledby="citation-title">
-      <h2 id="citation-title">Citation</h2>
-      <pre><code>BibTeX citation coming soon.</code></pre>
+      <p>Humanoid whole-body loco-manipulation is usually learned from teleoperated robot data, which is commonly known to be costly to collect and hard to scale. Human data offers a far cheaper and far more diverse option for robot skill learning, but due to the existence of the visual and kinematic gap between humans and humanoids, researchers have long struggled to make use of those scaled data already collected in bulk. Those data are also recorded in different formats, so that different datasets have very different observation spaces and action spaces. In this work, we propose a new policy training recipe for humanoid whole-body manipulation, in which we pretrain our policy by co-training a large amount of human data that are processed into the same action space, and post-train the policy with human-in-the-loop iterative offline RL. Our key insight is that a large amount of human data in the wild provides distribution coverage for the policy to learn how to accomplish the whole-body manipulation task, and a small amount of on-robot human-in-the-loop post-training shapes and sharpens that distribution, which will likely encourage more success in accomplishing tasks. We demonstrate how our recipe performs in selected whole-body manipulation tasks that capture what our system can actually achieve: our trained policy reaches a 20/20 success rate in the any-object pickup task with language conditioning, deployed in unseen environments throughout. Our policy also achieves 16/20 and 17/20 success rates on harder whole-body manipulation tasks like pushing and pulling door opening on doors with weight. Our recipe also works effectively well in tasks involving whole-body contact like whole-body carrying with torso and arm contact, and achieves a 16/20 success rate in held-out environments.</p>
     </section>
   </main>
-  <footer>Project Title · Institution / University</footer>
 </body>
 </html>
