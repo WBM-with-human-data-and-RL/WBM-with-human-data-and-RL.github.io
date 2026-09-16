@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eeede7">
+  <meta name="description" content="A little escape from the everyday. Explore imaginary journeys to extraordinary worlds with Offworld.">
+  <title>Offworld — A little further from ordinary</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Offworld home"><span class="brand-icon" aria-hidden="true">✳</span> offworld<span class="brand-dot">®</span></a>
+    <nav aria-label="Main navigation"><a href="#destinations">Destinations <span aria-hidden="true">↗</span></a><a href="#about">Our philosophy <span aria-hidden="true">↗</span></a></nav>
+    <span class="header-note"><span class="status-dot"></span> IMAGINATION, IN ORBIT</span>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">FOR THE WILDLY CURIOUS</p><h1 id="hero-title">A little further<br>from <em>ordinary.</em></h1><div class="intro-row"><p>Same universe. A different perspective.<br>Take your curiosity somewhere new.</p><a class="round-link" href="#destinations" aria-label="Explore destinations">↘</a></div></div>
+      <div class="hero-art" role="img" aria-label="An orange ringed planet floats above a quiet alien desert beneath a starry green sky">
+        <svg viewBox="0 0 800 650" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#163d3d"/><stop offset="1" stop-color="#91aaa0"/></linearGradient><radialGradient id="planet" cx="30%" cy="25%"><stop stop-color="#fbd69a"/><stop offset=".45" stop-color="#ef9d65"/><stop offset="1" stop-color="#b3533d"/></radialGradient><linearGradient id="dune" x2="0" y2="1"><stop stop-color="#d9bc90"/><stop offset="1" stop-color="#997457"/></linearGradient><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".12"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter></defs><g filter="url(#grain)"><path fill="url(#sky)" d="M0 0h800v650H0z"/><g fill="#f4efdb"><circle cx="90" cy="80" r="1.4"/><circle cx="187" cy="195" r="1"/><circle cx="660" cy="105" r="1.5"/><circle cx="545" cy="70" r="1"/><circle cx="713" cy="277" r="1"/><circle cx="90" cy="345" r="1"/><circle cx="311" cy="55" r="1"/><circle cx="572" cy="348" r="1.3"/><path d="M621 170v12m-6-6h12" stroke="#efead6" stroke-width="1"/></g><circle cx="432" cy="244" r="136" fill="url(#planet)"/><ellipse cx="432" cy="250" rx="233" ry="43" fill="none" stroke="#dac5a1" stroke-width="22" transform="rotate(-27 432 250)"/><path d="M311 305a136 136 0 0 1 242-122" fill="url(#planet)"/><ellipse cx="154" cy="127" rx="19" ry="19" fill="#d4d6b9"/><path d="M0 474Q135 385 282 459T580 433T800 459V650H0Z" fill="#b5b69a"/><path d="M0 552Q239 415 444 527T800 471V650H0Z" fill="url(#dune)"/><path d="M0 602Q225 500 411 588T800 535V650H0Z" fill="#6e6854"/><path d="M0 621Q236 584 449 643T800 595V650H0Z" fill="#384d46"/></g></svg>
+        <div class="art-top"><span>POSTCARD NO. 001</span><span>BEYOND THE EVERYDAY ↗</span></div><div class="art-bottom"><span>A place you haven't been.<br>A feeling you already know.</span><span class="coordinate">28° N / ∞° E</span></div>
+      </div>
+      <div class="hero-foot"><span>NO PASSPORT REQUIRED. JUST A LITTLE WONDER.</span><span>SCROLL TO WANDER ↓</span></div>
+    </section>
+    <section id="destinations" class="destinations wrap" aria-labelledby="destinations-title">
+      <div class="section-heading"><div><p class="eyebrow">YOUR NEXT DAYDREAM</p><h2 id="destinations-title">Pick a different kind of elsewhere.</h2></div><button id="surprise" class="text-button">Surprise me <span aria-hidden="true">⤨</span></button></div>
+      <div class="cards">
+        <button class="destination active" data-destination="0" aria-pressed="true"><span class="card-scene scene-one"><span class="mini-planet"></span><span class="scene-label">01 / SLOW DOWN</span><span class="card-arrow">↗</span></span><span class="card-title">The quiet side of Saturn<span>01</span></span><span class="card-description">Big rings. Absolutely no notifications.</span></button>
+        <button class="destination" data-destination="1" aria-pressed="false"><span class="card-scene scene-two"><span class="mini-planet"></span><span class="scene-label">02 / GET LOST</span><span class="card-arrow">↗</span></span><span class="card-title">A weekend on Mars<span>02</span></span><span class="card-description">Take the scenic route. All of them.</span></button>
+        <button class="destination" data-destination="2" aria-pressed="false"><span class="card-scene scene-three"><span class="mini-planet"></span><span class="scene-label">03 / FIND PERSPECTIVE</span><span class="card-arrow">↗</span></span><span class="card-title">Somewhere, near Neptune<span>03</span></span><span class="card-description">A little blue looks good on you.</span></button>
+      </div>
+      <div class="itinerary" aria-live="polite" aria-atomic="true"><span class="eyebrow">A FIELD NOTE FOR YOUR TRIP</span><p id="trip-note">Find a spot beneath the rings. Leave your to-do list on Earth. Watch the light change with absolutely nowhere to be.</p><span id="trip-time">RECOMMENDED STAY: ONE LONG EXHALE</span></div>
+    </section>
+    <section id="about" class="about wrap"><span class="about-symbol" aria-hidden="true">✳</span><p>You don't always need a plan.<br>Sometimes, you just need<br><em>a new point of view.</em></p><span class="eyebrow">A SMALL WEBSITE FOR BIG DAYDREAMS.</span></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#">offworld®</a><p>A fictional travel club. A very real sense of wonder.</p><a href="#">Back to Earth ↑</a></footer>
+</body>
+</html>
