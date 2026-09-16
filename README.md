@@ -1,13 +1,17 @@
-# Offworld
+# Academic project page
 
-A fictional space travel club: a responsive, illustrated landing page with an interactive destination picker.
+A minimal, responsive academic project template built with plain HTML and CSS. No dependencies or build step.
+
+## Customize
+
+Edit `index.html` to replace the placeholder title, authors, affiliation, abstract, method, results, and citation. Replace the figure placeholder with an image or video. Resource buttons are disabled until links are available; replace them with anchors as described in the HTML comment.
+
+Edit `style.css` to adjust the layout and colors.
 
 ## Preview
 
-Run `python3 -m http.server 8000` from this directory, then open http://localhost:8000.
+Run `python3 -m http.server 8000`, then open http://localhost:8000.
 
 ## Deploy
 
-The site is plain HTML, CSS, and JavaScript. In the repository's GitHub Pages settings, select **Deploy from a branch**, **main**, and **/ (root)**.
-
-No build or package installation is required. Google Fonts is optional; system fonts are used when unavailable. All illustrations are local SVG or CSS.
+In the repository's GitHub Pages settings, select **Deploy from a branch**, **main**, and **/ (root)**.
