@@ -1,0 +1,26 @@
+{
+ "cell_w": 192,
+ "cell_h": 150,
+ "frames": 16,
+ "fps": 4,
+ "views": [
+  "head",
+  "left_wrist",
+  "right_wrist"
+ ],
+ "sources": [
+  {
+   "label": "In-house UMI",
+   "task": "push door"
+  },
+  {
+   "label": "XDOF XMI",
+   "task": "wrap a burrito"
+  },
+  {
+   "label": "Lightwheel EgoPro",
+   "task": "put the paper clips away"
+  }
+ ],
+ "note": "real time-aligned human-data camera clips, starting 8 s into each episode"
+}
